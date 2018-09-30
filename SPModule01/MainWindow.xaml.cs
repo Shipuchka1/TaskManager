@@ -25,6 +25,7 @@ namespace SPModule01
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public static Model1 db = new Model1();
         public List<Process> allProcesses = Process.GetProcesses(".").ToList();
         public bool flag = false;
